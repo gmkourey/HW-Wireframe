@@ -12,12 +12,12 @@ header, footer, nav, section, aside {
 }
 section {
     width:495px;
-    display:inline-block;
     height:300px;
     margin-top:18px;
+    overflow:hidden;
+    display:inline-block;
 }
 aside {
-    display:inline-block;
     float:right;
     width:447px;
     margin-left:18px;
@@ -42,4 +42,7 @@ div {
     margin: auto;
     height:60px;
     line-height:60px;
+}
+footer {
+    margin-top:20px;
 }
